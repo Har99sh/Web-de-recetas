@@ -1,0 +1,32 @@
+body{
+    background-image: url("recomendaciones_fondo.jpg");
+}
+
+div.ele{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.row2{
+    margin-top: 7%;
+}
+
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.fotoreceta img{
+    width: 200px;
+    height: 200px;
+}
+
+.nombrereceta{
+    color:aliceblue;
+
+}
+
