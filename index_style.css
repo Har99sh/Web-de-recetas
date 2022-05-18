@@ -1,0 +1,99 @@
+body{
+    font-family: 'Bubblegum Sans';
+    background-image: url(./imagenes/img_index.jpg);
+}
+
+.cabecera{
+    background-color: black;
+    margin-left: -20px;
+    margin-top: -20px;
+    text-align: left;
+    font-size: 30px;
+    color:#E8F837;
+}
+
+div.cabecera > div{
+    display: inline-block;
+}
+
+.texto_cabecera{
+    margin-left: 30px;
+    vertical-align: top;
+}
+h3{
+    margin-top: -40px;
+    
+}
+
+#img_logo{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#buscador{
+    margin-left: 80px;
+}
+
+nav{
+    margin-left: 50px;
+    font-size:35px;
+}
+
+
+main{
+    margin-left: 750px;
+    font-size: 25px;
+}
+
+#presentacion_pag{
+    color:#E8F837;
+    margin-right: 50px;
+    margin-top:100px;
+    
+}
+#enlace_ing{
+    color:white;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+
+.enlace_nav{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 45px;
+    padding-right: 60px;
+    color:#E8F837;
+}
+
+#heroes{
+    color:#E8F837;
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+
+#autores{
+    color:white;
+    margin-right: 50px;
+}
+
+#conocelos{
+    background-color:#E8F837;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding:10px;
+    margin-left:320px;
+    margin-top: 20px;
+    font-family:'Bubblegum Sans';
+}
+
+#inicio{
+    color:#E8F837;
+    margin-left: 20px;
+    font-size:25px;
+}
