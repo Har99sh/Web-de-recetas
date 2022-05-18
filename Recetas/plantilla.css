@@ -2,7 +2,7 @@ body{
     background-image: url("https://s3.envato.com/files/322267197/stevanzz_04475.jpg");
     
     max-height: fit-content;
-    border: 1px solid black;
+    
     
 }
 .name{
@@ -23,18 +23,16 @@ body{
 
 .description{
     
-    margin-left:50px;
-    margin: 20px;
-    border: 1px solid black;
+    margin-left: 3%;
     padding: 20px;
     max-width: 500px;
     min-height: fit-content;
     text-align: justify;
-    font-size: large;
+    font-size: larger;
 
 }
 
-.ingres { border: 1px solid black;
+.ingres { 
     display: flex;
     justify-items: auto;
     min-height: fit-content;
@@ -43,11 +41,11 @@ body{
 .ingres h2 {text-align: center;}
 
 .listaing{
-    border: 1px solid black;
     min-height: fit-content;
     width: 400px;
     margin: 50px;
     padding: 20px;
+    font-size: larger;
     }
 
 .ingres img{
@@ -58,10 +56,10 @@ body{
 
 
 .preparation {
-    border: 1px solid black;
     text-align: justify;
     max-width: fit-content;
     margin: auto;
+    font-size: larger;
    
    
 }
@@ -71,4 +69,12 @@ body{
 
 .preparation h3{
     text-align: center;
+}
+
+.relacionadas{
+    margin-top: 4%;
+}
+
+.autor{
+    margin: top 4%; ;
 }
