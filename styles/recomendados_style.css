@@ -1,5 +1,5 @@
 body{
-    background-image: url("recomendaciones_fondo.jpg");
+    background-image: url("/imagenes/recomendaciones_fondo.jpg");
 }
 
 div.ele{display: flex;
