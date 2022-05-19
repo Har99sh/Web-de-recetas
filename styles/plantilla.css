@@ -25,11 +25,13 @@ body{
 .description{
     
     margin-left: 3%;
+    margin-right: 3%;
     padding: 20px;
     max-width: 500px;
-    min-height: fit-content;
+    height: fit-content;
     text-align: justify;
     font-size: larger;
+    background-color: rgb(130, 160, 160);
 
 }
 
@@ -43,11 +45,12 @@ body{
 .ingres h2 {text-align: center;}
 
 .listaing{
-    min-height: fit-content;
+    height: fit-content;
     width: 400px;
     margin: 50px;
     padding: 20px;
     font-size: larger;
+    background-color: rgb(135, 185, 166);
     }
 
 .ingres img{
@@ -58,10 +61,12 @@ body{
 
 
 .preparation {
+    padding: 20px;
     text-align: justify;
     max-width: fit-content;
     margin: auto;
     font-size: larger;
+    background-image: linear-gradient( to bottom right, rgb(171, 224, 221), rgb(169, 241, 178));
    
    
 }
@@ -87,7 +92,7 @@ body{
     margin-left: 8%;
 }
 
-/* .pastaimg img{
-    width: 300px;
-    height: 300px;
-} */
+.hamburguesacas img{
+    width: 600px;
+    height: 500px;
+}

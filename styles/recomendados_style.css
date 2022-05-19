@@ -34,3 +34,10 @@ h1{
 
 }
 
+.pie{
+    margin-top:7%;
+    background-color: aliceblue;
+    font-size: large;
+    max-width: fit-content;
+}
+

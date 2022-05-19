@@ -3,7 +3,7 @@
 
 section{
     width: 100%;
-   
+   margin: -10px;
     
     
     
@@ -59,4 +59,9 @@ div.container {
 }
 
 
-
+.pie{
+    margin-top:7%;
+    background-color: aliceblue;
+    font-size: large;
+    max-width: fit-content;
+}
