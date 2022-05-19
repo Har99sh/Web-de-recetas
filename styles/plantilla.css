@@ -8,6 +8,7 @@ body{
 .name{
     text-align: center;
     font-size: xx-large;
+    font-weight: 700;
 }
 .desci{
     display: flex;
@@ -36,6 +37,7 @@ body{
     display: flex;
     justify-items: auto;
     min-height: fit-content;
+    margin-top: 5%;
         }
 
 .ingres h2 {text-align: center;}
@@ -78,3 +80,14 @@ body{
 .autor{
     margin: top 4%; ;
 }
+
+.galletasmatcha img{
+    width: 400px;
+    height: 400px;
+    margin-left: 8%;
+}
+
+/* .pastaimg img{
+    width: 300px;
+    height: 300px;
+} */
