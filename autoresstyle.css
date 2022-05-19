@@ -3,14 +3,16 @@
 
 section{
     width: 100%;
-    min-height: fit-content;
-    border: 10px solid black;
+   
+    
+    
     
       
 }
 
 .autores{
     background-image: url("https://media.istockphoto.com/photos/seamless-white-brick-wall-for-wallpaper-picture-id499598820");
+    
 }
 
 h2{
@@ -52,6 +54,7 @@ div.polaroid {
   
 div.container {
     text-align: center;
+    font-size: larger;
     color: brown;
 }
 
