@@ -4,14 +4,14 @@
     <head>
         <meta charset="utf-8"/>
         <title>Cochinillo Segoviano</title>
-        <link href="prueba.css"  rel="stylesheet" type="text/css">
+        <link href="estilo_recetas.css"  rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <h1 id="inicio"> Cochinillo segoviano al horno</h1>
 
-        <div class="descripción">
+        <div class="descripcion">
             <!-- Descripción de la receta-->
             <div class="desc">
 
@@ -43,13 +43,15 @@
                 </p>
             </div>
 
-            <div class="img"><img src="https://www.recetasderechupete.com/wp-content/uploads/2010/12/Cochinillo-asado.jpg" alt="Cochinillo de Segovia al horno hecho"/></div>
+            <div id="img_cochinillo">
+                <img src="https://www.recetasderechupete.com/wp-content/uploads/2010/12/Cochinillo-asado.jpg" alt="Cochinillo de Segovia al horno hecho"/>
+            </div>
         </div>
 
         <div class="ingres">
 
-            <div class="img_ing">
-                <img src="./imagenes/images.jpg" alt="Ingredientes tiramisú">
+            <div id="img_ing">
+                <img src="imagenes/ingredientes.jpg" alt="Ingredientes">
             </div>
 
             <div class="listaing">
@@ -74,8 +76,8 @@
                 
             <h2>Preparación</h2>
 
-            <div class="prep_manteca">
-                <h3>Preparación de la manteca de cerdo especiada</h3>
+            <div class="prep">
+                <h3>· Preparación de la manteca de cerdo especiada</h3>
                     
                 <ol>
                     <li>
@@ -108,8 +110,8 @@
                 </ol>
             </div>
 
-            <div class="prep_cochinillo">
-                <h3>Preparación del cochinillo antes de hornear</h3>
+            <div class="prep">
+                <h3>· Preparación del cochinillo antes de hornear</h3>
                 <ol>
                     <li>
                         <p>
@@ -138,9 +140,9 @@
                 </ol>
             </div>
 
-            <div class="horneado">
+            <div class="prep">
 
-                <h3>Horneado del cochinillo segoviano </h3>
+                <h3>· Horneado del cochinillo segoviano </h3>
                 <ol>
                     <li>
                         <p>
@@ -180,9 +182,9 @@
                 </ol>
             </div>
 
-            <div class="presentacion">
+            <div class="prep">
                 
-                <h3>Presentación final del cochinillo segoviano </h3>
+                <h3>· Presentación final del cochinillo segoviano </h3>
                 <ol>
                     <li>
                         <p>
@@ -215,8 +217,8 @@
                 </p>
             </div>
 
-            <div class="consejos">
-                <h2>Consejos y recomendaciones para un cochinillo de rechupete</h2>
+            <div class="prep">
+                <h3>· Consejos y recomendaciones para un cochinillo de rechupete</h3>
                 <ul>
                     <li>
                         <p>
@@ -269,23 +271,24 @@
             </div>
         </main> 
 
-        <div>
+        <div class="recetas_rel">
             <h2>Recetas relacionadas</h2>
-            <ul>
-                <li><a href="Hamburger_casera_de_carne.html">Hamburgesa casera de carne</a></li>
-                <li><a href="ensaladadepasta.html">Ensalada de pasta</a></li>
-                <li><a href="revuelto_de_bacalao.html">Revuelto de bacalao</a></li>
-                <li><a href="Galletas_de_Macha.html">Galletas de Macha</a></li>
+            <ul id="ul">
+                <li><a class="links" href="Hamburger_casera_de_carne.html">Hamburgesa casera de carne</a></li>
+                <li><a class="links" href="ensaladadepasta.html">Ensalada de pasta</a></li>
+                <li><a class="links" href="revuelto_de_bacalao.html">Revuelto de bacalao</a></li>
+                <li><a class="links" href="Galletas_de_Macha.html">Galletas de Macha</a></li>
             </ul>
         </div>
 
-        <div>
+        <div class="autor">
             <h2>Por Andrea Bernardino</h2>
         </div>
         
-        <a href="#inicio">Volver al inicio</a><br />
-        <a href="../index.html">Volver a la página principal</a>
-
+        <footer>
+        <a class="e_inicial" href="#inicio">Volver al inicio</a><br />
+        <a class="e_inicial" href="../index.html">Volver a la página principal</a>
+        </footer>
         
     </body>
 

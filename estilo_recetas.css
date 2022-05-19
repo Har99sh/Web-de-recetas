@@ -1,0 +1,159 @@
+body{
+    background-image: url("./imagenes/9955.jpg");
+    max-width: 1525px;
+    max-height: fit-content;
+    font-family: 'Bubblegum Sans';
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color:mediumseagreen;
+}
+
+/*Descripción*/
+.descripcion{
+    overflow: hidden;
+}
+.desc{
+    margin-right: 750px;
+    margin-left:20px;
+    margin-top: 10px;
+    float:left;
+    font-size: 24px;
+    background: rgba(100, 218, 136, 0.5);
+    border-radius: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: text-to
+}
+#img_cochinillo{
+    height: 480px;
+    width: 700px;
+    float: right;
+    margin-top: -550px;
+
+}
+
+/*Ingredientes*/
+.ingres{
+    display:flex;
+    flex-direction:row;
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 1350px;
+    padding-top:10px;
+}
+
+.listaing{
+    margin-left: 90px;
+    background: rgba(215, 111, 211, 0.5);
+    border-radius: 5%;
+    margin-left: 120px;
+}
+.listaing > h2{
+    font-size:50px;
+    text-align: center;
+    color:rgb(130, 13, 124);
+    margin-top: 5px;
+    margin-bottom: -10px;
+    
+}
+
+.listaing > ul{
+    font-size: 30px;
+}
+#img_ing{
+    float: right;
+}
+
+/*Preparación*/
+main{
+    margin-left: 90px;
+    background: rgba(90, 198, 234, 0.5);
+    border-radius: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+main > h2{
+    font-size:50px;
+    text-align: center;
+    color:rgb(18, 104, 154);
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.prep{
+    font-size:20px;
+}
+.prep > h3{
+    font-size:30px;
+    color:rgb(18, 104, 154);
+}
+
+/*Recetas relacionadas*/
+.recetas_rel{
+
+    width: 400px;
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 90px;
+    background: rgba(114, 234, 90, 0.5);
+    border-radius: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: -50px;
+    
+}
+
+.recetas_rel > h2{
+    font-size:50px;
+    text-align: center;
+    color:rgb(13, 111, 31);
+    margin-top: 50px;
+    padding-top: 20px;
+    
+}
+
+.links{
+    color:black;
+    font-size:20px;
+}
+
+#ul{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.autor{
+    float: right;
+    font-size:30px;
+    text-align: center;
+    color:aqua;
+    -webkit-text-stroke: 0.2px black;
+    margin-right: 280px;
+    margin-top: -180px;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+}
+.e_inicial{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+
