@@ -1,29 +1,26 @@
 body{
-    background-image: url("https://s3.envato.com/files/322267197/stevanzz_04475.jpg");
-    
+    background-image: url("https://s3.envato.com/files/322267197/stevanzz_04475.jpg");   
     max-height: fit-content;
-    
-    
-}
+    }
+
 .name{
     text-align: center;
     font-size: xx-large;
     font-weight: 700;
-}
+    }
+
 .desci{
     display: flex;
     justify-items: auto;
-
-}
+    }
 
 .image{
     width: 500px;
     height: 400px;
-}
+    }
 
 
-.description{
-    
+.description{    
     margin-left: 3%;
     margin-right: 3%;
     padding: 20px;
@@ -32,15 +29,14 @@ body{
     text-align: justify;
     font-size: larger;
     background-color: rgb(130, 160, 160);
-
-}
+    }
 
 .ingres { 
     display: flex;
     justify-items: auto;
     min-height: fit-content;
     margin-top: 5%;
-        }
+    }
 
 .ingres h2 {text-align: center;}
 
@@ -57,7 +53,7 @@ body{
     width: 600px;
     height: 500px;
     margin: 50px;
-}
+    }
 
 
 .preparation {
@@ -67,32 +63,31 @@ body{
     margin: auto;
     font-size: larger;
     background-image: linear-gradient( to bottom right, rgb(171, 224, 221), rgb(169, 241, 178));
-   
-   
-}
+    }
+
 .preparation h2{
     text-align: center;
-}
+    }
 
 .preparation h3{
     text-align: center;
-}
+    }
 
 .relacionadas{
     margin-top: 4%;
-}
+    }
 
 .autor{
     margin: top 4%; ;
-}
+    }
 
 .galletasmatcha img{
     width: 400px;
     height: 400px;
     margin-left: 8%;
-}
+    }
 
 .hamburguesacas img{
     width: 600px;
     height: 500px;
-}
+    }
