@@ -35,3 +35,13 @@ h1{
     margin-left: 40px;
     margin-right: 100px;
 }
+
+/*Footer*/
+footer{
+    text-align: center;
+}
+.e_inicial{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

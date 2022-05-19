@@ -59,3 +59,14 @@ div.box > div.postre{
 .box{
     display: inline-block;
 }
+
+/*Footer*/
+footer{
+    text-align: center;
+    margin-top:20px;
+}
+.e_inicial{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
