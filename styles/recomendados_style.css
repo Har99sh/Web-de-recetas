@@ -1,5 +1,5 @@
 body{
-    background-image: url("/imagenes/recomendaciones_fondo.jpg");
+    background-image: url("..//imagenes/recomendaciones_fondo.jpg");
 }
 
 div.ele{display: flex;
@@ -16,6 +16,7 @@ div.ele{display: flex;
 h1{
     text-align: center;
     color: aliceblue;
+    font-weight: 700;
 }
 
 
@@ -27,6 +28,9 @@ h1{
 
 .nombrereceta{
     color:aliceblue;
+    font-size: larger;
+    font-weight: 700;
+    text-decoration-line: none;
 
 }
 
