@@ -33,7 +33,7 @@ img{
     max-height: 100%;
     vertical-align: text-to
 }
-#img_cochinillo{
+#img_receta{
     height: 480px;
     width: 700px;
     float: right;
@@ -146,9 +146,12 @@ main > h2{
 footer{
     text-align: center;
     margin-top:-20px;
+    padding-top: 10px;
+    padding-left: 700px;
+    margin-right: 20px;
+    margin-bottom: 30px;
 }
 .e_inicial{
-    text-align: center;
     color: white;
     font-size: 20px;
 }
