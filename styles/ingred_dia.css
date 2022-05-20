@@ -1,6 +1,7 @@
 body{
     font-family: 'Bubblegum Sans';
     background-image: url(../imagenes/menudia.jpg);
+    background-size: cover;
 }
 
 h1{

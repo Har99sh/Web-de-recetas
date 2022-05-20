@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Bubblegum Sans';
     background-image: url(../imagenes/img_index.jpg);
@@ -10,6 +11,7 @@ body{
     text-align: left;
     font-size: 30px;
     color:#E8F837;
+    align-items: center;
 }
 
 div.cabecera > div{
@@ -22,26 +24,71 @@ div.cabecera > div{
 }
 h3{
     margin-top: -40px;
+    margin-left: 40px;
     
 }
 
 #img_logo{
     width: 150px;
     height: 150px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
-#buscador{
-    margin-left: 80px;
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    background: #E8F837;
+    padding: 15px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 350px;
+    margin-top: 100px;
+    position: absolute;
+   
 }
 
+.buscar_texto{
+    border:none;
+    background: none;
+    outline: none;
+    color:black;
+    font-size: 20px;
+    transition: .3s;
+    width: 0;
+}
+
+.boton{
+    width: 40px;
+    height: 40px;
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
 nav{
     margin-left: 50px;
     font-size:35px;
 }
 
+.social_media a{
+    display: inline-flex;
+    color:white;
+    background: none;
+    text-decoration: none;
+    transition: transform 0.4s;
+}
 
+.social_media a:hover{
+    transform: scale(1.3);
+}
+
+.social_media{
+    margin-left: 700px;
+    margin-bottom: 10px;
+}
 main{
     margin-left: 750px;
     font-size: 25px;
@@ -57,6 +104,7 @@ main{
     color:white;
     margin-left: 200px;
     margin-top: 100px;
+    text-decoration: none;
     
 }
 
@@ -66,6 +114,7 @@ main{
     margin-left: 45px;
     padding-right: 60px;
     color:#E8F837;
+    text-decoration: none;
 }
 
 #heroes{
@@ -100,4 +149,26 @@ main{
     color:#E8F837;
     margin-left: 20px;
     font-size:25px;
+}
+
+
+/*Responsive*/
+
+/*Tamaño móvil*/
+@media screen and (min-width:480px) {
+    .buscar:hover > .buscar_texto{
+        width: 190px;
+    }
+}   
+/*Tamaño tablet*/
+@media screen and (min-width:768px) {
+    .buscar:hover > .buscar_texto{
+        width: 380px;
+    }
+}
+/*Tamaño ordenador*/
+@media screen and (min-width:1024px) {
+    .buscar:hover > .buscar_texto{
+        width: 300px;
+    }
 }

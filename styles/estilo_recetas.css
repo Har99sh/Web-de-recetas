@@ -3,7 +3,6 @@ body{
     max-width: 1525px;
     max-height: fit-content;
     font-family: 'Bubblegum Sans';
-    
 }
 
 h1{
@@ -28,17 +27,64 @@ h1{
     padding-right: 15px;
 }
 
+/*Imágenes*/
 img{
     max-width: 100%;
     max-height: 100%;
     vertical-align: text-to
 }
-#img_receta{
+#img_cochinillo{
     height: 480px;
     width: 700px;
     float: right;
     margin-top: -550px;
 
+}
+
+#img_strudel{
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    float: right;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 10px;
+
+}
+
+#img_revuelto{
+    height: 480px;
+    width: 700px;
+    float: right;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 830px;
+
+}
+#img_patatas{
+    height: 480px;
+    width: 700px;
+    float: right;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 830px;
+    
+
+}
+
+#img_ing_cochinillo{
+    float: right;
+}
+#img_ing_patatas{
+    float: right;
+    margin-top: 120px;
+}
+#img_ing_strudel{
+    float: right;
+    margin-top: 100px;
+}
+#img_ing_revuelto{
+    float: right;
 }
 
 /*Ingredientes*/
@@ -69,9 +115,7 @@ img{
 .listaing > ul{
     font-size: 30px;
 }
-#img_ing{
-    float: right;
-}
+
 
 /*Preparación*/
 main{

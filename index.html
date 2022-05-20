@@ -2,9 +2,13 @@
 <html lang="es">
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Página principal</title>
         <link rel="stylesheet" href="styles/index_style.css" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./iconos/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     </head>
 
     <body>
@@ -19,15 +23,31 @@
                     <h3>Porque la comida nos une</h3>
                 </div>
                 
-                <div>
-                    <nav id="buscador">
-                        <form>
-                            <label for="buscar">
-                                <input type="text" name="buscador">
-                            </label>
-                        </form>
-                    </nav>
-                </div> 
+             
+                <div class="buscar">
+                    <input type="text" class="buscar_texto" placeholder="Buscar...">
+                    <a href="" class="boton">
+                        <i class="icon-buscar"></i>
+                    </a>
+                </div>     
+
+                <div class="social_media">
+                    <a href="https://www.youtube.com/" class="youtube" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/?lang=es" class="twitter" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" class="facebook" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/es/" class="tiktok" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
             </div>
         </header>
         
@@ -55,7 +75,7 @@
         
                 <p>Elige la receta que más te guste y... !que aproveche!</p>
 
-                <a id="enlace_ing" href="ingredientes_basicos.html" target="_blank">Ingredientes básicos que necesitarás...</a>
+                <a id="enlace_ing" href="./menu_cabecera/ingredientes_basicos.html" target="_blank">Ingredientes básicos que necesitarás...</a>
 
             </div>
 
@@ -69,7 +89,7 @@
             </div>
         </main>
         
-        <a id="inicio" href="#inicio">Inicio de página</a>
+        <a id="inicio" href="#inicio">Inicio</a>
       
     </body>
 </html>
