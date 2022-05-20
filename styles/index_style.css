@@ -141,8 +141,8 @@ nav ul{
 }
 .enlace_nav{
     display: inline-block;
-    margin-top: 10px;
-    margin-left: 45px;
+    margin-top: -10px;
+    margin-left: 60px;
     padding-right: 60px;
     color:#E8F837;
     text-decoration: none;
