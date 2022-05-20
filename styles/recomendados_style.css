@@ -1,5 +1,6 @@
 body{
     background-image: url("..//imagenes/recomendaciones_fondo.jpg");
+    font-family: "Bubblegum Sans";
     }
 
 div.ele{
@@ -35,10 +36,16 @@ h1{
     }
 
 .pie{
+    padding-top: 0%;
     margin-top:7%;
+    margin-bottom: 7%;
     background-color: aliceblue;
     font-size: large;
     max-width: fit-content;
+    text-align: center;
+    display: flex;
+    align-content: flex-start;
+
 }
 
 a:link{
