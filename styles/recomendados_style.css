@@ -1,5 +1,5 @@
 body{
-    background-image: url("..//imagenes/recomendaciones_fondo.jpg");
+    background-image: url("../imagenes/recomendaciones_fondo.jpg");
     font-family: "Bubblegum Sans";
     }
 
@@ -17,7 +17,7 @@ div.ele{
 
 h1{
     text-align: center;
-    color: #8fcbff;
+    color: #ffe928;
     font-weight: 700;
     }
 
