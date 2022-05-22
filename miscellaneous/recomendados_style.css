@@ -51,4 +51,12 @@ h1{
 a:link{
     text-decoration: none;
 }
-  
+
+@media only screen and (max-width: 600px) {
+    .ele  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+}
