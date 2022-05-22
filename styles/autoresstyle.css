@@ -119,12 +119,22 @@ div.container {
     min-height: fit-content;
     text-align: center;
     color: brown;
+
 }
 
 
 .pie{
     margin-top:7%;
-    background-color: aliceblue;
+    background-color: rgb(3, 24, 43);
     font-size: large;
     max-width: fit-content;
+}
+
+.pie a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.pie:hover{
+    
 }
