@@ -1,0 +1,54 @@
+body{
+    background-image: url("../imagenes/recomendaciones_fondo.jpg");
+    font-family: "Bubblegum Sans";
+}
+
+div.ele{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.row2{
+    margin-top: 7%;
+}
+
+
+h1{
+    text-align: center;
+    color: #edd607;
+    font-weight: 700;
+}
+
+
+
+.fotoreceta img{
+    width: 200px;
+    height: 200px;
+}
+
+.nombrereceta{
+    color:aliceblue;
+    font-size: larger;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+
+.pie{
+    padding-top: 0%;
+    margin-top:7%;
+    margin-bottom: 7%;
+    background-color: aliceblue;
+    font-size: large;
+    max-width: fit-content;
+    text-align: center;
+    display: flex;
+    align-content: flex-start;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+  
