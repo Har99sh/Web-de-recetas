@@ -54,7 +54,7 @@ h3{
     padding: 15px;
     height: 60px;
     border-radius: 30px;
-    margin-left: 300px;
+    margin-left: 190px;
     margin-top: 110px;
     position: absolute;
     align-items: center;
@@ -91,23 +91,23 @@ h3{
 }
 
 .social_media{
-    margin-left: 1230px;
+    margin-left: 290px;
     margin-bottom: 10px;
 }
 main{
-    margin-left: 750px;
-    font-size: 25px;
+    margin-left: 650px;
+    font-size: 20px;
 }
 
 #presentacion_pag{
     color:#E8F837;
-    margin-right: 50px;
+    margin-right: 20px;
     margin-top: 200px;
     
 }
 #enlace_ing{
     color:white;
-    margin-left: 150px;
+    margin-left: 70px;
     margin-top: 100px;
     text-decoration: none;
     
@@ -145,13 +145,12 @@ nav ul{
 
 .menu {
     display: block;
-    margin-left: 50px;
     font-size:35px;
 }
 .enlace_nav{
     display: inline-block;
     margin-top: -40px;
-    margin-left: 45px;
+    margin-left: 10px;
     padding-right: 60px;
     color:#E8F837;
     text-decoration: none;
@@ -176,9 +175,9 @@ nav ul{
     color:black;
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     padding:10px;
-    margin-left:0px;
+    margin-left:140px;
     margin-top: 20px;
     font-family:'Bubblegum Sans';
 }
@@ -203,20 +202,20 @@ nav ul{
 /*Tamaño móvil*/
 @media screen and (min-width:480px) {
     .buscar:hover > .buscar_texto{
-        width: 190px;
+        width: 150px;
     }
 }   
 /*Tamaño tablet*/
 @media screen and (min-width:768px) {
     .buscar:hover > .buscar_texto{
-        width: 380px;
+        width: 200px;
     }
    
 }
 /*Tamaño ordenador*/
 @media screen and (min-width:1024px) {
     .buscar:hover > .buscar_texto{
-        width: 300px;
+        width: 230px;
     }
 }
 /*
