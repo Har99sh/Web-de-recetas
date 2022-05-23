@@ -4,7 +4,7 @@ body{
     background-image: url(../imagenes/img_index.jpg);
     max-height: fit-content;
 }
-
+/*
 .contenedor{
     width: 100%;
     max-width:1760px;  ;
@@ -12,6 +12,7 @@ body{
     overflow: hidden;
 
 }
+*/
 .cabecera{
     background-color: black;
     margin-left: -20px;
